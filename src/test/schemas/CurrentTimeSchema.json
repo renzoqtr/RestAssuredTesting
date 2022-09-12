@@ -1,0 +1,60 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "year": {
+      "type": "integer"
+    },
+    "month": {
+      "type": "integer"
+    },
+    "day": {
+      "type": "integer"
+    },
+    "hour": {
+      "type": "integer"
+    },
+    "minute": {
+      "type": "integer"
+    },
+    "seconds": {
+      "type": "integer"
+    },
+    "milliSeconds": {
+      "type": "integer"
+    },
+    "dateTime": {
+      "type": "string"
+    },
+    "date": {
+      "type": "string"
+    },
+    "time": {
+      "type": "string"
+    },
+    "timeZone": {
+      "type": "string"
+    },
+    "dayOfWeek": {
+      "type": "string"
+    },
+    "dstActive": {
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "year",
+    "month",
+    "day",
+    "hour",
+    "minute",
+    "seconds",
+    "milliSeconds",
+    "dateTime",
+    "date",
+    "time",
+    "timeZone",
+    "dayOfWeek",
+    "dstActive"
+  ]
+}
